@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 body{
@@ -7,9 +7,35 @@ body{
 }
 nav{
     display: flex;
-    height:64px;
+    height:70px;
     background-color: black;
     max-width: 100%;
+    justify-content: space-between;
+} 
+.links-container{
+margin-right: 3rem;
+}
+.links-container ul{
+    display: inline-flex;
+    gap: 3rem;
+    text-decoration: none;
+}
+.links-container ul li {
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    list-style-type: none;
+}
+.links-container a {
+    text-decoration: none;
+}
+.links-container li{
+transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.links-container li:hover{
+    text-shadow:rgb(120, 120, 120) 1px 1px;
+    
 }
 .logo-container{
     display: flex;
@@ -17,21 +43,25 @@ nav{
 .logo-container h1{
     display: flex;
     color: white;
-    font-family: 'UnifrakturCook', cursive;
+    font-family: 'Lobster', cursive;
     margin-left: 1rem;
     margin-top: 0%;
     font-size: 50px;
+    cursor:pointer;
 }
 main{
     display: flex;
     height: 50em;
-    background-image: url(/CreepsWebsite/images/chairs.jpeg);
-    opacity: 100%;
-    transition: opacity 0.3s;
-    -webkit-transition: opacity 0.3s;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(/MirroredProjectWebsite/images/wallpaper.jpeg);
+    opacity: 70%;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
 }
 main:hover{
-    opacity:50%;
+    opacity:25%;
 }
 
 footer{
@@ -40,4 +70,17 @@ footer{
     background-color: black;
     height: 64px;
     margin-bottom: 0%;
+}
+
+
+
+
+
+.contact-button{
+    justify-content: center;
+    background-color: yellow;
+    font-family: 'Lobster', cursive;
+    border-radius: 1rem;
+    font-size: 24px;
+    margin-bottom: 14px;
 }
