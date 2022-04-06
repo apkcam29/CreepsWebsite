@@ -3,7 +3,6 @@
 
 body{
     margin: 0%;
-    background-color: black;
 }
 nav{
     display: flex;
@@ -12,6 +11,10 @@ nav{
     max-width: 100%;
     justify-content: space-between;
 } 
+
+
+
+
 .links-container{
 margin-right: 3rem;
 }
@@ -30,12 +33,12 @@ margin-right: 3rem;
     text-decoration: none;
 }
 .links-container li{
-transition: 0.5s;
+    transition: 0.5s;
     -webkit-transition: 0.5s;
 }
 .links-container li:hover{
     text-shadow:rgb(120, 120, 120) 1px 1px;
-    
+    font-size: 45px;
 }
 .logo-container{
     display: flex;
@@ -49,31 +52,44 @@ transition: 0.5s;
     font-size: 50px;
     cursor:pointer;
 }
+
+
 main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     display: flex;
     height: 50em;
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
     background-image: url(/MirroredProjectWebsite/images/wallpaper.jpeg);
-    opacity: 70%;
     transition: opacity 0.5s;
     -webkit-transition: opacity 0.5s;
 }
-main:hover{
-    opacity:25%;
-}
-
-footer{
+.main-content{
     display: flex;
-    max-width: 100%;
-    background-color: black;
-    height: 64px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+main h3{
+    letter-spacing: 18px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    margin-top: -20rem;
+    opacity: 100%;
     margin-bottom: 0%;
 }
-
-
-
+main h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    margin: 0%;
+}
 
 
 .contact-button{
@@ -83,4 +99,28 @@ footer{
     border-radius: 1rem;
     font-size: 24px;
     margin-bottom: 14px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.contact-button:hover{
+    font-size: 30px;
+}
+
+footer{
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    background-color: black;
+    height: 64px;
+    margin-bottom: 0%;
+}
+footer h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 2.5rem;
+}
+sub{
+    display: flex;
+    background-color:rgb(75, 75, 75) ;
+    height: 40rem;
 }
