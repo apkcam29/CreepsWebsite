@@ -124,3 +124,34 @@ sub{
     background-color:rgb(75, 75, 75) ;
     height: 40rem;
 }
+
+
+
+
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:60rem;
+    color: white;
+}
+.adrian-photo{
+    margin-left: -48rem;
+    height: 40rem;
+    border-radius: 40rem;
+    box-shadow: darkgrey 5px 5px  ;
+}
+
+
+
+
+
+
+
+.gallery-container{
+    display: flex;
+    background-color: black;
+    height: 60rem;
+}
