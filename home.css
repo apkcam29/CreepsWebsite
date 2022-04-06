@@ -63,7 +63,7 @@ main{
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    background-image: url("/MirroredProjectWebsite/images/wallpaper.jpeg");
+    background-image: url("./images/wallpaper.jpeg");
     transition: opacity 0.5s;
     -webkit-transition: opacity 0.5s;
 }
