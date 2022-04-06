@@ -4,6 +4,7 @@
 body{
     margin: 0%;
     margin-bottom: 0%;
+    background-color: black;
 }
 nav{
     display: flex;
@@ -25,13 +26,15 @@ nav{
 main{
     display: flex;
     height: 50em;
-    background-color: black;
+    background-image: url(/CreepsWebsite/images/chairs.jpeg);
+    opacity: 100%;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
 }
-main img{
-    display: flex;
-    opacity: 50%;
-    width: 100%;
+main:hover{
+    opacity:50%;
 }
+
 footer{
     display: flex;
     max-width: 100%;
